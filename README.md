@@ -27,10 +27,10 @@ agar informasi tidak hanya bergantung pada warna.
 ## Cara menjalankan
 
 ```bash
-python persona_dashboard.py     # tanpa library tambahan
+python persona_dashboard.py    
 ```
 
-Buka `docs/index.html` di browser (tidak butuh internet). Publikasi: **Settings → Pages → main, /docs**.
+link index.html  https://krbara.github.io/studi-kasus-persona-dashboard/
 
 ## Catatan penting
 
@@ -39,8 +39,3 @@ Buka `docs/index.html` di browser (tidak butuh internet). Publikasi: **Settings 
 - Audit otomatis hanya memeriksa kontras warna, bukan seluruh aspek aksesibilitas. Uji dengan pengguna dan pembaca layar tetap perlu.
 - Data sintetis; pola penurunan "Camilan" sengaja ditanam agar ada cerita yang bisa disorot.
 - Belum ada evaluasi dengan pengguna nyata (tahap evaluasi pada siklus desain interaksi).
-
-## Pengembangan lanjutan
-
-Uji kegunaan (usability test) dengan 3-5 orang, tambah persona keempat, dukungan navigasi keyboard penuh dan atribut ARIA yang lebih lengkap,
-serta simulasi buta warna.
